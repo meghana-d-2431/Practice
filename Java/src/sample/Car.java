@@ -18,10 +18,10 @@ public class Car {
 
     // Main     
      public static void main(String[] args) {
-        // Create an "Object" (Instance of the class)
+        // Create an Object
         Car myCar = new Car("Toyota", 2024);
         
-        // Access attributes and call methods
+        // call method
         myCar.displayInfo();
     }
 }
