@@ -12,7 +12,7 @@ public class Car {
     }
 
     // 3. Method
-    public void displayInfo() {
+    public void displayInfo(String string) {
         System.out.println("Brand: " + brand + ", Year: " + year);
     }
 
@@ -22,6 +22,6 @@ public class Car {
         Car myCar = new Car("Toyota", 2024);
         
         // call method
-        myCar.displayInfo();
+        myCar.displayInfo("this is my car");
     }
 }
