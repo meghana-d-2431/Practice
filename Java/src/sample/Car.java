@@ -13,6 +13,7 @@ public class Car {
 
     // 3. Method
     public void displayInfo(String string) {
+        System.out.println(string);
         System.out.println("Brand: " + brand + ", Year: " + year);
     }
 
