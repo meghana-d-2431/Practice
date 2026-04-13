@@ -23,6 +23,6 @@ public class Car {
         Car myCar = new Car("Toyota", 2024);
         
         // call method
-        myCar.displayInfo("this is my car");
+        myCar.displayInfo("this is my car that i bought recently");
     }
 }
