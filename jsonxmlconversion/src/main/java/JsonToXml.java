@@ -11,13 +11,13 @@ public class JsonToXml {
 
         //ClassLoader → finds file location
         //getResourceAsStream → opens file
-        //InputStream → reads file content
+        //InputStream → reads file content in bytes 
         
         InputStream is = JsonToXml.class
         .getClassLoader()
         .getResourceAsStream("employeejson.json");
 
-        String stringJson = new String(is.readAllBytes()); //eads the file content converts those bytes into a normal Java String
+        String stringJson = new String(is.readAllBytes()); // reads the file content converts those bytes into a normal Java String
 
         JSONObject json = new JSONObject(stringJson); // Convert the JSONString to a JSONObject structured data 
         // "{ \"name\": \"John\", \"age\": 25, \"city\": \"Dallas\" }"
