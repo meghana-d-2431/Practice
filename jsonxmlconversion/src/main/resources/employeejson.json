@@ -1,15 +1,13 @@
 {
-  "root": {
-    "Employees": {
-      "jobTitleName": "Java Developer",
-      "firstName": "Meghana",
-      "lastName": "D",
-      "emailAddress": "meghana@gmail.com",
-      "phoneNumber": "1234567890",
-      "preferredFullName": "Meghana",
-      "region": "CA",
-      "userId": "meghana",
-      "employeeCode": "123"
-    }
+  "Employee": {
+    "jobTitleName": "Developer",
+    "firstName": "John",
+    "lastName": "Doe",
+    "emailAddress": "john@example.com",
+    "phoneNumber": "1234567890",
+    "preferredFullName": "John Doe",
+    "region": "US",
+    "userId": "jd01",
+    "employeeCode": "E100"
   }
 }
